@@ -1,4 +1,4 @@
-# Atividade Avaliativa da Disciplina de Matemática - 1INFO3 - 2025
+# Atividade Avaliativa - 1INFO3 - 2025
 
 ## Problema 1
 
