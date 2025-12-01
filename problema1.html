@@ -24,12 +24,35 @@ dê uma olhada no arquivo "atividade_programacao-1info3.pdf" para maior clareza.
 
 // Função
 
+function f(x){
+  
+  const y = -3*x**2 + 4*x + 1
+  
+  return y
+}
+function g(x){
+  
+  let y
+  
+  if (x <= 1){
+    y = 3*x**2 - 8*x
+  } else {
+    y = -7*x + 2
+  }
+  
+  return y
+  
+}
 
 // Aplicação
+const aplica_f = f(-8)
+const aplica_g = g(2)
 
 
 
 // Mostra resultado
+document.write("f(-8) = " + aplica_f + "<br>");
+document.write("g(2) = " + aplica_g);
 
   
 </script>

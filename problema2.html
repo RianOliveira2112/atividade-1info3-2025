@@ -13,12 +13,23 @@
 
 
 // Função
+function populacao(n, t){
+  
+  const crescimento = Math.floor(t / 3)
+  const pop_final = n * (4 ** crescimento)
+  
+  return pop_final
+}
 
 
 // Aplicação
+const n_inicial = 47
+const t_dias = 60 
+const pop_resultado = populacao(n_inicial, t_dias)
 
 
 // Mostra resultado
+document.write("População após " + t_dias + " dias: " + pop_resultado);
 
 
 </script>
